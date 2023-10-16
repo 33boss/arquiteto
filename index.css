@@ -1,0 +1,90 @@
+.conteiner-1{
+    background-color: black;
+    color: white;
+    height: 270px;
+    margin: -10px;
+    margin-top: -21px;
+    
+
+}
+
+.conteiner-1 .text{
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+.conteiner-2{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: space-evenly;
+    background-color: #F9F9F9;
+    height: 160px;
+    margin: -30px;
+    
+}
+.conteiner-2 p{
+    padding-top: 16%;
+}
+
+.conteiner-3{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-bottom: 50px;
+}
+
+.resumo {
+  text-align: center;
+  margin-top: 250px;
+}
+
+img{
+    margin-top: 100px;
+}
+.conteiner-4{
+    background-color: black;
+    margin: -20px;
+    height: 600px;
+}
+
+.conteiner-4 h2{
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+ .input{
+   margin-left: 670px;
+   
+   
+}
+input{
+    display: block;
+    width: 400px;
+    height: 50px;
+    padding-left: 22px;
+    margin: 50px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+button{
+    margin-left: 132px;
+    height: 60px;
+    width: 240px;
+    background-color:  #C07212;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover{
+    transform: translateY(-10px);
+    transition-duration: 10s;
+}
